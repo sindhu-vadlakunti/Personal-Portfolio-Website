@@ -1,0 +1,45 @@
+{
+  "name": "sindhu-vadlakunti-portfolio",
+  "version": "1.0.0",
+  "description": "A modern, responsive portfolio website for Sindhu Vadlakunti - AI/ML Enthusiast and Software Engineer",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=\"index.html\"",
+    "dev": "live-server --port=3000 --open=\"index.html\"",
+    "prettier": "prettier --write \"**/*.{html,css,js,json}\"",
+    "lint:css": "stylelint \"**/*.css\"",
+    "lint:js": "eslint \"**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "web-development",
+    "frontend",
+    "responsive-design",
+    "gsap",
+    "modern-ui"
+  ],
+  "author": "Sindhu Vadlakunti",
+  "license": "MIT",
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not < 2%",
+    "not ie 11"
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "aos": "^2.3.4",
+    "gsap": "^3.12.2",
+    "particles.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "live-server": "^1.2.2",
+    "prettier": "^3.1.1",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-order": "^6.0.3"
+  }
+}
